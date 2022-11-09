@@ -1,0 +1,63 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.movies-app  {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.movies-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+.filter-app {
+  margin : 10px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+.input-filter {
+  margin-right: 20px;
+}
+.movie-add {
+  display: flex;
+  flex-direction: column;
+}
+.input-add{
+  margin: 10px
+}
+.btn-add {
+  display: flex;
+  margin: 10px 30%;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
